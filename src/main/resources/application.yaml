@@ -23,6 +23,11 @@ spring:
               predicates:
                 - Path=/ead-notification/**
 
+ead:
+  serviceRegistry:
+    username: serviceregistry
+    password: 'ead123sr'
+
 eureka:
   client:
     serviceUrl:
